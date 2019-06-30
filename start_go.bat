@@ -1,1 +1,1 @@
-docker run -it --rm -p 3999:3999 -v %cd%:/go/src --name go golang 
+docker run -it --rm -p 3999:3999 -p 59058:59058 -v %cd%:/go/src --name go golang
